@@ -1,0 +1,7 @@
+providers = ["python"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python main.py"  # Or "streamlit run app.py" / "uvicorn app:app"
